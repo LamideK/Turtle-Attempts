@@ -1,0 +1,29 @@
+import turtle
+import math
+
+#draws a square
+bob = turtle.Turtle()
+x = turtle.Turtle()
+for i in range(4):
+    bob.lt(90)
+    bob.fd(100)
+# print(bob)
+
+#draws a polygon
+def polygon(sides):
+    t = turtle.Turtle()
+    angles = math.ceil(360/sides)
+    for i in range(sides):
+        t.lt(angles)
+        t.fd(angles)
+
+#drawing a triangle
+# def triangle(sides):
+
+
+#drawing a circle
+    #def circle(t,r):
+        #def pentagon()
+
+polygon(8)
+turtle.Turtle()
